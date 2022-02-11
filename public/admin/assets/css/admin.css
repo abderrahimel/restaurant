@@ -1,0 +1,18 @@
+.table-user{
+    position: relative;
+    top: 60px;
+    right: -150px;
+}
+
+.table-1{
+    background: grey;
+    border: 3px;
+}
+
+.ligne{
+    padding: 30px;
+}
+
+.second-ligne{
+    text-align: center;
+}
