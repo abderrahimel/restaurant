@@ -32,6 +32,11 @@ Route::post('/uploadfood',[AdminController::class, "upload"]);
 Route::get('/foodmenu',[AdminController::class, "foodmenu"]);
 
 Route::get('/redirects',[HomeController::class, "redirects"]);
+// route for reservation formulaire
+Route::post('/reservation',[AdminController::class, "reservation"]);
+
+
+Route::get('/viewreservation',[AdminController::class, "viewreservation"]);
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
